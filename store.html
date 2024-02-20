@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>JavaScript Vanilla Shopping Cart Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/store.css">
+    
+  
+  </head>
+  <body>
+ 
+    
+
+    <nav class="navMenu">	
+      <a href="#"><img  src="Images/logo.jpg" alt="logo" class="nav-logo"></a>
+          <ul>
+            <li><a href="Main-page.html">Home</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li> <a href="form.html">Comments</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="extracontent.html">Memorable Leaders</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>			 
+  </nav>
+
+  
+
+ <main>
+     
+<div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <a href="checkout.html"><button class="purchase-btn">Purchase</button></a>
+        </div>
+      </div>
+</div>
+<br><br>
+
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div>
+<!--  products  --> 
+  <div class="items-container">
+    <div class="card-1 card">
+      <img width="150" height="250" class="product-image" src="Images/bat2.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">Bat <br>$100</span>
+    </div>
+    <div class="card-2 card">
+      <img width="150" height="250" class="product-image" src="./Images/leg pad.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Batting Pad <br>$35</span>
+    </div>
+    <div class="card-3 card">
+      <img width="150" height="250" class="product-image" src="./Images/balls.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">Leather Balls <br>$60</span>
+    </div>
+    <div class="card-4 card">
+      <img width="150" height="250" class="product-image" src="./Images/helmet.jpeg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Helmet <br> $25</span>
+    </div>
+    <div class="card-5 card">
+      <img width="150" height="250" class="product-image" src="./Images/bag.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Bag <br>$55</span>
+    </div>
+  </div>  
+  <br>
+  <div class="items-container">
+    <div class="card-1 card">
+      <img width="150" height="250" class="product-image" src="./Images/jersey1.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">SL Jersey <br>$99</span>
+    </div>
+    <div class="card-2 card">
+      <img width="150" height="250" class="product-image" src="./Images/stumps1.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Wicket Stump <br>$30</span>
+    </div>
+    <div class="card-3 card">
+      <img width="150" height="250" class="product-image" src="./Images/glove1.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">WK gloves <br>$35</span>
+    </div>
+    <div class="card-4 card">
+      <img width="150" height="250" class="product-image" src="./Images/ball guard.jpg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Ball Guard <br>$69</span>
+    </div>
+    <div class="card-5 card">
+      <img width="150" height="250" class="product-image" src="./Images/thighguard.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Thigh Guard <br> $29</span>
+    </div>
+  </div> 
+    
+ </main>
+  <br><br>
+ <footer>
+  <p>Page Editor: <a href="pageEditor.html"><span>Abdul Miki</span></a></p>
+  <p>Copyright &copy; 2023 Cricket World | All Rights Reserverd. </p>
+  <div>
+      <a href="https://www.facebook.com/"><img src="Images/fb.png"></a>
+      <a href="https://www.instagram.com/"><img src="Images/ig.jpg"></a>
+      <a href="https://twitter.com/"><img src="Images/tw.png"></a>
+  </div>
+  <p>Last Upadated 02/04/2023</p>
+ </footer>
+ 
+  <!-- Script JavaScript   -->
+  <script  src="./JS/store.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galllery</title>
+    <link rel="stylesheet" href="CSS/gallery.css">
+    <link rel="stylesheet" href="CSS/navbar.css" >
+    <link rel="stylesheet" href="CSS/footer.css" >
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon" >
+    <script src="JS/gallary.js" defer></script>
+</head>
+<body>
+    <nav class="navMenu">	
+        <a href="Main-page.html"><img src="Images/logo.jpg" alt="logo" class="nav-logo"></a>
+            <ul>
+                <li><a href="Main-page.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li> <a href="form.html">Comments</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="extracontent.html">Memorable Leaders</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+                <li><a href="Studentdetails.html">About us</a></li>
+            </ul>			 
+    </nav>	<br><br><br>
+    <div class="conteiner">
+        <!--Buttons to change the color-->
+        <div class="turnblue" id="bgblue" style="height:30px; width:30px; border: solid thin black; margin: 10px; float: left;">
+        </div>
+        <br><br>
+        <div class="turnteal" id="bgteal" style="height:30px; width:30px; border: solid thin black; margin: 10px; float: left;">
+        </div>
+        <br><br>
+        <div class="turngreen" id="bggreen" style="height:30px; width:30px; border: solid thin black; margin: 10px; float: left;">
+        </div>
+        <br><br>
+        <!--Random color button-->
+        <div class="turnrandom" id="bgrandom" style="height:30px; width:30px; border: solid thin black; margin: 10px; float: left;">
+        </div>
+        <div class="header">
+            <h1>Gallery</h1><br>
+            <h2>T20 World clups</h2>
+        </div>
+        <!--T20 world cup gallery-->
+        <div class="gallery">
+            <img src="Images/2014,gallery.jpg" alt="2014" id="img1" >
+            <img src="Images/2016,gallery.jpg" alt="2016" id="img2" >
+            <img src="Images/2021.webp" alt="2021" id="img3" >
+            <img src="Images/2022.webp" alt="2022" id="img4" >
+        </div>
+        <div class="buttons">
+            <span class="btn" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+            <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.25em'">A</span>
+            <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.5em'">A</span>
+        </div>
+        <div class="preview" id="preview">
+            <img src="Images/2014,gallery.jpg" alt="default" id="preview-img" >
+            <div class="content" id="text">
+                <!--Data will be written when you hover the image-->
+                <div class="heading" id="heading"></div>
+                <div class="description" id="description"></div> 
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="header2">
+            <h2>Best Cricket Tournaments</h2>
+        </div>
+        <!--Tournament gallery-->
+        <div class="gallery">
+            <img src="Images/ICC-Cricket-World-Cup.jpg.webp" alt="ICC CW" id="img5" >
+            <img src="Images/ICC-Championship-Trophy-1.jpg.webp" alt="ICC CT" id="img6" >
+            <img src="Images/Ashes-Series.jpg.webp" alt="Ashes" id="img7" >
+            <img src="Images/Championship-League-Twenty20.jpg.webp" alt="T20" id="img8" >
+        </div>
+        <!--Go to top button-->
+        <button id="top-btn" onclick="scrollToTop();">Back to Top</button>
+    </div>
+    <footer>
+        <p>Page Editor: <a href="nimeth.html"><span>Nimeth Fernando</span></a></p>
+        <p>Copyright &copy; 2023 Cricket World | All Rights Reserverd. </p>
+        <div>
+            <a href="https://www.facebook.com/"><img src="Images/fb.png" alt="fb"></a>
+            <a href="https://www.instagram.com/"><img src="Images/ig.jpg" alt="ig"></a>
+            <a href="https://twitter.com/"><img src="Images/tw.png" alt="tw"></a>
+        </div>
+        <p>Last Upadated 02/04/2023</p>
+    </footer>
+</body>
+</html>
